@@ -55,6 +55,16 @@
     .btn-banner-prev .arrow-banner, .btn-banner-next .arrow-banner {
         font-size: 30px;
     }
+
+    .product-card {
+        height: 100%;
+        width: 100%;
+    }
+
+    .product-card .product-img-card {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -88,13 +98,10 @@
     }
 }
 
-@media screen and (max-width: 992px) {
-    .product-card {
-        height: 100%;
-        width: 100%;
+@media screen and (max-width: 576px) {
+    .alert-new {
+        left: 10px;
+        font-size: 11px;
     }
-    .product-card .product-img-card {
-        height: 100%;
-        width: 100%;
-    }
+    
 }

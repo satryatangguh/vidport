@@ -139,6 +139,22 @@ body {
     transition: 0.5s;
 }
 
+/* Alert Styling */
+.alert-new {
+    height: 50px; 
+    font-size: 14px; 
+    font-weight: 600; 
+    z-index: 999; 
+    margin-top: 10px; 
+    right: 10px;
+}
+
+.alert-new i {
+    font-size: 20px;
+    margin-right: 10px
+}
+
+/* Carousel for Banner */
 .btn-banner-prev, .btn-banner-next {
     width: 5%;
 }
